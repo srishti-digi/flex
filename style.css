@@ -8,8 +8,11 @@ body{
 
 }
 .flex-container{
+    justify-content:center;
     display:flex;
     background-color:#f4f4f4;
+    align-items: center;
+    height:400px;
 }
 .item{
     height:100px;
@@ -17,4 +20,17 @@ body{
     margin:10px;
     color:#fff;
     background-color: blue;
+}
+.item:nth-of-type(1)
+{
+    align-self: flex-start;
+}
+.item:nth-of-type(2)
+{
+    align-self: center;
+}
+.item:nth-of-type(3)
+{
+    align-self: end;
+    
 }
