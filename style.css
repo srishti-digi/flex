@@ -13,10 +13,11 @@ body{
     background-color:#f4f4f4;
     align-items: center;
     height:400px;
-    flex-direction:column;
+ 
     flex-wrap: wrap;
 }
 .item{
+    flex:1 0 100px;
     height:100px;
     width:100px;
     margin:10px;
@@ -29,18 +30,22 @@ body{
 
 
 
-
+/* 
 .item:nth-of-type(1)
 {
+    flex-grow: 2;
     order:3;
 }
 .item:nth-of-type(2)
 {
    order:1;
+   flex-grow: 1;
 }
 .item:nth-of-type(3)
 {
    order:2;
+   flex-grow: 1;
+   
 
 
-}
+} */
